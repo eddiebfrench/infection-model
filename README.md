@@ -9,9 +9,13 @@ pandas, numpy, matplotlib
 
 ## Model information:
 -Each individual has a mean daily average of contacts, taken from a Poisson distribution.
+
 -Each individual has a maximum number of friends, taken from a Poisson distribution.
+
 -Every day, individuals are given a random allotment of contacts based on their daily average. 
+
 -Individuals gain friends as the model runs and have a higher chance of coming into contact with them.
+
 -Individuals who are unaware of their status have a random chance to be tested once a week. Individuals who test positive avoid social contact.
 
 ## Contact
